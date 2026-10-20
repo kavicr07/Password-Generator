@@ -1,0 +1,57 @@
+body{
+    background-color: white;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.containerB{
+    background-color: #1b232c;
+    width: 600px;
+    height: 500px;
+    margin: 20px auto;
+}
+.green {
+    color: #34C759;
+}
+#psOne {
+    border: 20px solid #1f2937;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+#psTwo {
+    border: 20px solid #1f2937;
+    width: 250px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+#ps-el , p {
+    color: white;
+}
+#bt-el{
+    border: none;
+    border-radius: 2px;
+    background-color: #34C759;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: inherit;
+}
+
+#bt-el:active {
+  box-shadow: 0 0px #1e7e34;
+  transform: translateY(5px);
+  background-color: rgb(226, 7, 7); 
+}
+
+.line{
+    border-bottom: 5px solid #1f2937;
+    margin-bottom: 30px;
+    width: 100%;
+}
